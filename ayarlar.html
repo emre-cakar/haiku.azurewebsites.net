@@ -12,14 +12,14 @@
 </head>
 <body class="bg-light">
 
-    <!--header start-->
+    <!--Header Start-->
     <div class="container-fluid bg-light sticky-top  p-4 shadow">
         <div class="row">
             <!-- Logo -->
             <div class="col-6 col-md-2" style="font-family: Broadway; font-size: 1.80rem;">
                 <a href="home.html" class="text-decoration-none text-dark">haiku</a>
             </div>
-            
+
             <!-- Arama Kısmı -->
             <div class="col-8 d-none d-md-block">
                 <div class="input-group">
@@ -34,7 +34,7 @@
                     <a class="btn btn-outline-secondary border-0 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                         @cakarem
                     </a>
-                  
+
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <li><a class="dropdown-item" href="#">Profil</a></li>
                       <li><a class="dropdown-item" href="#">Ayarlar</a></li>
@@ -45,7 +45,7 @@
             </div>
         </div>
     </div><!--header finish-->
-    
+
     <div class="container">
 
         <div class="wrapper">
@@ -109,8 +109,8 @@
           <button class="Button Button--sync rounded-pill" style="width:100px;" id="sync">Kaydet</button>
         </section>
 
-        
-        
+
+
         <aside class="Sidebar p-5 d-none d-md-block"></aside>
         </div>
 
@@ -126,14 +126,14 @@
             function openAttachment() {
         document.getElementById('attachment').click();
       }
-  
+
       function fileSelected(input){
         document.getElementById('btnAttachment').value = "Resim : " + input.files[0].name
       }
 
       function gizleGoster(clickedID){
         const obj = document.querySelector(clickedID);
-        obj.replace('d-none', 'd-block'); 
+        obj.replace('d-none', 'd-block');
 
       }
     </script>
