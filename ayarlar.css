@@ -1,0 +1,249 @@
+
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:link, a:visited {
+    color: #b0b0b2;
+  }
+  a:hover, a:active {
+    color: #0674d7;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    padding: 80px 20px;
+    margin: 0 auto;
+  }
+  
+  .Sidebar {
+    align-items: center;
+    background-color: #2d3139;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: -5px 0px 60px 0 rgba(0, 0, 0, 0.6), inset 0 0 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 60px 0;
+  }
+  
+  .Sidebar__nav-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Sidebar__nav-list__item {
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    font-size: rem(28px);
+    padding: 20px 30px;
+    text-align: center;
+  }
+  .Sidebar__nav-list__item:hover {
+    color: white;
+  }
+  .Sidebar__nav-list__item--active {
+    color: white;
+  }
+  
+  /**
+   * 1. z-indexed over the sidebar so the sidebar's shadow 
+   *    doesn't show over the main content area  
+   */
+  .Details {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: -5px 0px 70px 0 rgba(0, 0, 0, 0.4);
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    /* [1] */
+  }
+  
+  .Details__header {
+    padding: 30px;
+  }
+  
+  .Details__title {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .Details__nav {
+    padding: 0 60px;
+  }
+  
+  .Details__nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Details__nav-list__item {
+    border-bottom: 2px solid transparent;
+    color: #b0b0b2;
+    cursor: pointer;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .Details__nav-list__item:hover {
+    border-color: #0674d7;
+  }
+  .Details__nav-list__item--active {
+    border-color: #0674d7;
+  }
+  
+  .Details__body {
+    background: #f7f9fa;
+    padding: 50px 60px;
+    border-radius: 4px;
+  }
+  
+  .Media {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .Media__side {
+    vertical-align: middle;
+  }
+  .Media__side--left {
+    margin-right: 30px;
+  }
+  .Media__side--right {
+    margin-left: 30px;
+  }
+  
+  .Media__image {
+    width: 100%;
+    max-width: 55px;
+  }
+  
+  .Media__body {
+    flex: 1;
+  }
+  
+  .checkbox {
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox:before {
+    background-color: #00baff;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    line-height: 28px;
+    opacity: 0;
+    transition: all 0.1s ease-in;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .checkbox-input {
+    display: none;
+  }
+  
+  .checkbox-input:checked + .checkbox:before {
+    opacity: 1;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+  }
+  
+  .Button {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    outline: 0;
+    padding: 16px 16px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: box-shadow 0.15s, background-color 0.15s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    vertical-align: middle;
+    will-change: box-shadow, background-color, color;
+  }
+  .Button--sync {
+    background-color: #00baff;
+    border-radius: 50%;
+    color: white;
+    font-size:1.2rem;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    width: 70px;
+    height: 50px;
+  }
+
+  
+  #sync {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    transform: translate(-50%, 50%);
+  }
+  
+  .u-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .u-flex-center--v {
+    display: flex;
+    align-items: center;
+  }
+
+  .foto{
+    width: 130px;
+    height: 160px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  }

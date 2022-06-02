@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haiku | Ayarlar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="ayarlar.css">
+</head>
+<body class="bg-light">
+
+    <!--header start-->
+    <div class="container-fluid bg-light sticky-top  p-4 shadow">
+        <div class="row">
+            <!-- Logo -->
+            <div class="col-6 col-md-2" style="font-family: Broadway; font-size: 1.80rem;">
+                <a href="home.html" class="text-decoration-none text-dark">haiku</a>
+            </div>
+            
+            <!-- Arama Kısmı -->
+            <div class="col-8 d-none d-md-block">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="ara..." aria-label="haiku ara" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                  </div>
+            </div>
+
+            <!-- Kullanıcı -->
+            <div class="col-6 col-md-2 text-end">
+                <div class="dropdown">
+                    <a class="btn btn-outline-secondary border-0 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        @cakarem
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Profil</a></li>
+                      <li><a class="dropdown-item" href="#">Ayarlar</a></li>
+                      <li><hr class="dropdown-divide"></li>
+                      <li><a class="dropdown-item" href="index.html">Çıkış</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div><!--header finish-->
+    
+    <div class="container">
+
+        <div class="wrapper">
+        <aside class="Sidebar p-5 d-none d-md-block"></aside>
+
+        <section class="Details">
+          <header class="Details__header">
+            <h1 class="Details__title">AYARLAR</h1>
+          </header>
+          <nav class="Details__nav" role="navigation">
+            <ul class="Details__nav-list">
+              <li class="Details__nav-list__item" id="profil" onclick="gizleGoster(this.id)">Profil</li>
+              <li class="Details__nav-list__item">Güvenlik</li>
+              <li class="Details__nav-list__item">Bildirim</li>
+            </ul>
+          </nav>
+
+
+          <!--profil ayarları start-->
+          <div class="Details__body d-none">
+            <div class="container-fluid container-md p-4">
+                <div class="row">
+                    <div class="col-lg-9  p-2">
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput1" class="form-label">Ad Soyad</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+
+                    </div>
+                    <div class="col-lg-3  p-0 d-flex flex-column align-items-center ">
+                        <div class="foto border box">
+                            <img src="https://picsum.photos/130/160" class="img-fluid" alt="resim seç">
+                        </div>
+                        <div class="mt-2">
+                            <input type="file" class="file" id="attachment" style="display: none;" onchange="fileSelected(this)"/>
+<input type="button btn btn-outline-primary " style="max-width:100px;" class="file" id="btnAttachment" onclick="openAttachment()" value="Resim Seç"/>
+                          </div>
+
+                    </div>
+                </div>
+
+            </div>
+          </div><!--profil ayarları finish-->
+
+          <!--güvenlik ayarları start-->
+          <div class="Details__body ">
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label">E-Mail</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label">Şifre</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+          </div><!--profil ayarları finish-->
+
+
+
+
+          <button class="Button Button--sync rounded-pill" style="width:100px;" id="sync">Kaydet</button>
+        </section>
+
+        
+        
+        <aside class="Sidebar p-5 d-none d-md-block"></aside>
+        </div>
+
+    </div>
+
+
+
+  <script src="ayarlar.cs"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+            function openAttachment() {
+        document.getElementById('attachment').click();
+      }
+  
+      function fileSelected(input){
+        document.getElementById('btnAttachment').value = "Resim : " + input.files[0].name
+      }
+
+      function gizleGoster(clickedID){
+        const obj = document.querySelector(clickedID);
+        obj.replace('d-none', 'd-block'); 
+
+      }
+    </script>
+
+</body>
+</html>
