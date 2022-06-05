@@ -1,0 +1,161 @@
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <title>haiku</title>
+    <style>
+        
+        .box{
+            min-width: 250px;
+            min-height: 250px;
+            max-width:450px;
+            border-radius: 0 50px;
+            display: block;
+
+        }
+        .circle{
+        height:100px;
+        width:100px;
+        border-radius:50%;
+        border:1px solid #df4759;
+        transform:rotate(-45deg) ;  
+        position:absolute;
+        color:white
+        }
+        #left_top{
+        top:-50px;
+        left:-50px;
+        border-color:transparent transparent #df4759 transparent;
+        }
+        #right_bottom{
+        bottom:-50px;
+        right:-50px;
+        border-color:#df4759 transparent transparent transparent;
+        }
+
+
+        .login{
+            height: 520px;
+            width: 400px;
+            background-color: rgba(255,255,255,0.02);
+            border: 2px solid rgba(255,255,255,0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 50px 35px;
+            color: #ffffff;
+        }
+                
+        form *{
+            font-family: 'Poppins',sans-serif;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            outline: none;
+            border: none;
+        }
+        form h3{
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 42px;
+            text-align: center;
+        }
+
+        label{
+            display: block;
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        input{
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255,255,255,0.07);
+            border-radius: 3px;
+            padding: 0 10px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        ::placeholder{
+            color: #e5e5e5;
+        }
+        button{
+            margin-top: 50px;
+            width: 100%;
+            background-color: #ffffff;
+            color: #080710;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container-flueid bg-dark overflow-auto vh-100">
+        <div class="container p-0 h-100 d-flex align-items-md-center py-5">
+
+            <div class="p-0 w-100 ">
+                <div class="row m-0 d-flex align-items-center">
+                    <!--sol taraf-->
+                    <div class="col-md-6">
+
+                        <div class="box border border-danger position-relative">
+                            <div class="circle bg-dark "id="left_top"></div>
+                            <i class="fas fa-quote-left fa2 text-white display-1 position-absolute top-0 start-0 translate-middle"></i>
+                            <div class="circle bg-dark" id="right_bottom"></div>
+                            <i class="fas fa-quote-right fa1 text-white display-1 position-absolute top-100 start-100 translate-middle"></i>
+                            <div class="text-center m-5">
+                                <p class="m-0 fs-5 text-white">Güm güm çalındı kapım<br>Açtım baktım ki<br>Yalnızlığımmış</p>
+                                <figcaption class="blockquote-footer m-1">
+                                    Cemal Süreya
+                                </figcaption>
+                            </div>
+                        </div>
+
+
+                    </div><!--sol taraf-->
+
+                    <div class="col-md-6 mt-5 p-4 d-flex justify-content-center">
+
+                       <form class="login"  method="get" action="/Home">
+                        <h3 class="text-center">GİRİŞ YAP</h3>
+
+                        <label for="username">Kullanıcı Adı</label>
+                        <input type="text" placeholder="Kullanıcı Adı" id="username">
+                
+                        <label for="password">Parola</label>
+                        <input type="password" placeholder="Parola" id="password">
+                        <button  type="submit">GİRİŞ</button>
+                       </form>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="/haikuSite/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
