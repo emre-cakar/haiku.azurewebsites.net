@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cakarem\\.nuget\\packages\\": {}
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cakarem\\Desktop\\haiku-mvc\\haiku-mvc.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\haiku-mvc.csproj",
       "projectName": "haiku-mvc",
-      "projectPath": "C:\\Users\\cakarem\\Desktop\\haiku-mvc\\haiku-mvc.csproj",
-      "packagesPath": "C:\\Users\\cakarem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cakarem\\Desktop\\haiku-mvc\\obj\\",
+      "projectPath": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\haiku-mvc.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cakarem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

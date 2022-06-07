@@ -1,0 +1,7 @@
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\haiku-mvc.exe
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\haiku-mvc.dll
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\haiku-mvc.deps.json
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\haiku-mvc.runtimeconfig.json
+C:\Users\lenovo\OneDrive\Belgeler\GitHub\haiku.azurewebsites.net\haiku-mvc\obj\Release\net6.0\PubTmp\Out\haiku-mvc.pdb
