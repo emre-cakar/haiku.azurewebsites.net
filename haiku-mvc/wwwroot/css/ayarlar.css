@@ -1,4 +1,29 @@
+body {
+}
 
+*:focus {
+    box-shadow: none !important;
+}
+
+textarea {
+    border: none;
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    margin: 0px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+    textarea:focus {
+        outline: 0;
+        box-shadow: inset 0px 0px 20px rgba(0,0,0,0.1) !important;
+    }
+
+.box {
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.1);
+}
   
   ul {
     padding: 0;

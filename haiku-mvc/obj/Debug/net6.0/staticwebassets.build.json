@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "id5XAZc/wZbGtG5eYKPdHR9qUxO/FqcOAym8cFeU7Ls=",
+  "Hash": "F3AXRN7S1+hg2rYIpGYWDlbejpvdnaeIlQvg1PdfM9g=",
   "Source": "haiku-mvc",
   "BasePath": "_content/haiku-mvc",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\data\\posts.json",
+      "SourceId": "haiku-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\",
+      "BasePath": "_content/haiku-mvc",
+      "RelativePath": "data/posts.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\posts.json"
+    },
+    {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\favicon.ico",
       "SourceId": "haiku-mvc",
       "SourceType": "Discovered",
@@ -185,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\Broadway.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\js\\ayarlar.js",
+      "SourceId": "haiku-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\",
+      "BasePath": "_content/haiku-mvc",
+      "RelativePath": "js/ayarlar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ayarlar.js"
     },
     {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Belgeler\\GitHub\\haiku.azurewebsites.net\\haiku-mvc\\wwwroot\\js\\site.js",

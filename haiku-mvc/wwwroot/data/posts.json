@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 0,
+    "KullaniciId": 0,
+    "Icerik": "Güm güm çalındı kapım\nAçtım baktım ki\nYalnızlığımmış",
+    "Date":,
+    "Begeni": 10,
+    "Paylasim": 5
+  },
+
+  {
+    "Id": 1,
+    "KullaniciId": 1,
+    "Icerik": "Kışı sarınsan\nYapraklar battaniye\nKar cam kulübe",
+    "Date":,
+    "Begeni": 25,
+    "Paylasim": 10
+  }
+
+  {
+    "Id": 1,
+    "KullaniciId": 1,
+    "Icerik": "Yaprak düşüyor\nKalbimi tutuyorum\nEylül, bir kadın?",
+    "Date":,
+    "Begeni": 18,
+    "Paylasim": 4
+  }
+]
