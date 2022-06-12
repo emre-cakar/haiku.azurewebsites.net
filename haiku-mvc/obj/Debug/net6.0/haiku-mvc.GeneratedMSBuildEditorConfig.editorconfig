@@ -19,12 +19,72 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXlhcmxhclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/FOLLOWERS/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRk9MTE9XRVJTXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/FOLLOWERS/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRk9MTE9XRVJTXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/FOLLOWERS/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRk9MTE9XRVJTXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/FOLLOWERS/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRk9MTE9XRVJTXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/FOLLOWERS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRk9MTE9XRVJTXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/LIKES/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTElLRVNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/LIKES/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTElLRVNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/LIKES/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTElLRVNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/LIKES/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTElLRVNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/LIKES/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTElLRVNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/POSTS/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TVFNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/POSTS/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TVFNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/POSTS/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TVFNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/POSTS/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TVFNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/POSTS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TVFNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/Shared/Error.cshtml]
@@ -33,6 +93,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/SHARES/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0hBUkVTXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/SHARES/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0hBUkVTXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/SHARES/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0hBUkVTXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/SHARES/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0hBUkVTXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/SHARES/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0hBUkVTXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/USERS/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVVNFUlNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/USERS/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVVNFUlNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/USERS/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVVNFUlNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/USERS/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVVNFUlNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/USERS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVVNFUlNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lenovo/OneDrive/Belgeler/GitHub/haiku.azurewebsites.net/haiku-mvc/Views/_ViewImports.cshtml]

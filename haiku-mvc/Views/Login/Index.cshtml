@@ -7,14 +7,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haiku | Giriş Yap</title>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="/css/all.min.css">
     <link rel="stylesheet" href="/css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    
-    <title>haiku</title>
 
     <style>
         
@@ -114,7 +113,8 @@
 
             <div class="p-0 w-100 ">
                 <div class="row m-0 d-flex align-items-center">
-                    <!--sol taraf-->
+
+                    <!--sol taraf başlangıç-->
                     <div class="col-md-6">
 
                         <div class="box border border-danger position-relative">
@@ -131,32 +131,63 @@
                         </div>
 
 
-                    </div><!--sol taraf-->
+                    </div><!--sol taraf bitiş-->
+                    
 
+                    <!--sağ taraf başlangıç-->
                     <div class="col-md-6 mt-5 p-4 d-flex justify-content-center">
 
-                       <form class="login"  method="get" action="/Home">
-                        <h3 class="text-center">GİRİŞ YAP</h3>
+                       <form id="login" class="login"  method="get" action="/Home">
+                            <h3 class="text-center">GİRİŞ YAP</h3>
 
-                        <label for="username">Kullanıcı Adı</label>
-                        <input type="text" placeholder="Kullanıcı Adı" id="username">
+                            <label for="username">Kullanıcı Adı</label>
+                            <input id="username" type="text" placeholder="Kullanıcı Adı">
                 
-                        <label for="password">Parola</label>
-                        <input type="password" placeholder="Parola" id="password">
-                        <button  type="submit">GİRİŞ</button>
+                            <label for="password">Parola</label>
+                            <input id="password" type="password" placeholder="Parola">
+                            <button id="girisbutonu" type="submit">GİRİŞ</button>
+
+                            
+
                        </form>
 
-                    </div>
+
+                       
+                      
+                    </div><!--sağ taraf bitiş-->
+
                     
                 </div>
+
+
+
+               <!--<div>
+                   <form id="kayitol" class="login"  method="get" action="/Login">
+                        <h3 class="text-center">KAYIT OL</h3>
+
+                        <label for="namesurname">Ad Soyad</label>
+                        <input id="namesurname" type="text" placeholder="Ad Soyad">
+
+                        <label for="kayitemail">Email</label>
+                        <input id="kayitemail" type="email" placeholder="Email">
+
+                        <label for="username">Kullanıcı Adı</label>
+                        <input id="kayitusername" type="text" placeholder="Kullanıcı Adı">
+                
+                        <label for="password">Parola</label>
+                        <input id="kayitpassword" type="password" placeholder="Parola">
+                        <button id="kayitbutonu" type="submit">KAYIT OL</button>
+                    
+                       </form>
+               </div>-->
+
             </div>
 
 
         </div>
     </div>
 
-
-
     <script src="/haikuSite/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

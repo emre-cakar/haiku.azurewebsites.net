@@ -61,10 +61,14 @@
         <!--enter haiku and profile start-->
         <div class="container-lg container-fluid justify-content-between">
             <div class="row">
+
                 <!--enter haiku start-->
                 <div class="col-12 col-md-9 m-0 p-0 pe-md-2 position-relative">
-                        <textarea placeholder="bir haiku yaz..."></textarea>
-                        <button type="button" class="btn btn-primary position-absolute" style="right:25px; bottom:25px;">Paylaş</button>
+                    <form>
+                        <textarea id="haikucontent" placeholder="bir haiku yaz..."></textarea>
+                        <button id="paylasbutonu" type="button" class="btn btn-primary position-absolute" style="right:25px; bottom:25px;">Paylaş</button>
+                    </form>
+                        
                 </div> <!--enter haiku finish -->
                 <!--Profile start-->
                 <div class="col-0 col-md-3 d-none d-md-block">
@@ -353,8 +357,8 @@
 
     </div>
 
-    
-
     <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

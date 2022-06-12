@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using haiku_mvc.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<haiku_mvcContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("haiku_mvcContext") ?? throw new InvalidOperationException("Connection string 'haiku_mvcContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
